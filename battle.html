@@ -11,10 +11,13 @@
                 <img id="myPokePic" src="" alt="">
                 <h2 id="myPokeName"></h2>
             </div>
+            <div></div>
             <div class="moves">
+                <h1>Moves learned by Level:</h1>
                 <div v-for="move in attacks">
                 <h3>{{ move.name }}</h3>
                 <p>Learned at level: <span>{{ move.level }}</span></p>
+                <br>
                 </div>
             </div>
 
@@ -26,10 +29,9 @@
             </div>
             <div id="rightSide">
                 <div id="options">
-                    <button id="attackButton">Attack</button>
-                    <button id="itemButton">Items</button>
-                    <button id="helpButton">Help</button>
+                    <button id="evolveButton">Evolve</button>
                     <button id="runButton"><a href="index.html">Back</a></button>
+                    <button id="git"><a href="https://github.com/koliphan2/creativeLab2">Github</a></button>
                 </div>
             </div>
         </div>

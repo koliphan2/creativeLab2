@@ -16,7 +16,12 @@ img {
 
 
 
-
+.moves{
+    font-size: 20px;
+    background-color: white;
+    border: 5px solid burlywood;
+    width: 95%;
+}
 
 /* RIGHT SIDE */
 #options{
@@ -76,16 +81,14 @@ body{
 
 
 #myInfo{
+    position: fixed;
     width: 100%;
-    display: grid;
-    grid-template-columns: auto;
-    float: right;
 }
 
 .moveList{
     padding: 10px;
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 40% 60%;
     grid-column-gap: 20px;
     grid-row-gap: 30px;
 }
@@ -94,7 +97,7 @@ body{
 
 #myPokePic{
     width: 300px;
-    border-width: 0px;
+    background-color: white;
 }
 
 #myPokeName{
