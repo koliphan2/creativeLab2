@@ -1,0 +1,107 @@
+
+body {
+    background-color: 
+    antiquewhite;
+}
+
+img {
+    float: left;
+    margin: 10px;
+    border: 5px solid burlywood;
+    border-radius: 10px;
+    max-height: 250px;
+}
+
+
+
+
+
+
+
+/* RIGHT SIDE */
+#options{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+}
+
+
+
+#moveDescription{
+    display: none;
+    height: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: auto auto;
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+    align-content: center;
+}
+
+
+
+
+button{
+    border: 2px dashed black;
+    font-family: monospace;
+    font-size: 20px;
+    font-style: oblique;
+    padding: 10px;
+}
+
+button:hover{
+    background-color: rgb(204, 203, 203);
+}
+
+button:active{
+    border: 2px solid black;
+}
+
+body{
+    font-family: monospace;
+}
+
+.battleSheet{
+    align-content: center;
+    height: 100vw;
+    text-align: center;
+}
+
+
+.attackButton{
+    width: 100%;
+}
+
+
+#myInfo{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto;
+    float: right;
+}
+
+.moveList{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+}
+
+
+
+#myPokePic{
+    width: 300px;
+    border-width: 0px;
+}
+
+#myPokeName{
+    float: left;
+    font-size: 20px;
+}
+
+h2{
+    float: left;
+}
